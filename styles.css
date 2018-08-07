@@ -1,0 +1,52 @@
+
+
+.container {
+
+ background-color: black;
+ 
+
+}
+
+.card-header{
+
+    background-color:rgb(51, 162, 206);
+
+}
+
+.footer-image {
+    background-image: url('https://d2gne97vdumgn3.cloudfront.net/api/file/OYKWMVybQzGVMFe6vsDx');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+p1 {
+    color: white
+}
+
+.section {
+    background-color: rgb(77, 189, 204);
+    object-position: center;
+
+}
+
+.section{
+    border:solid;
+    border-color: black;
+    width: 100%;
+    height:100px;
+    align-content: center
+
+}
+.footer{
+    border:solid;
+    border-color: black;
+    width: 100%;
+    height:100px;
+    align-content: center;
+}

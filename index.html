@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Astro Weight Calculator</title>
-  </head>
-  <body>
-     <!-- Write your markup here  -->
-    <input id="user-weight"/>
-    <select id="planets">
-      <option>default</option>
-    </select>
-    <p id="output"></p>
 
-    
-    <button id="calculate-button">Calculate</button>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="main.js" charset="utf-8"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <title>Astro Weight Calculator</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="card text-center">
+      <div class="card-header">
+        <h1>Astro Weight Calculator</h1>
+        <p>To know the weight of an object in different plantes, just type the weight in pounds and we will find it for you.</p>
+      </div>
+      <div class="card-body">
+        <input id="user-weight" placeholder="Number in pounds"> Lbs</input>
+        <select id="planets">
+          <option>default</option>
+        </select>
+        <button id="calculate-button">Calculate</button>
+      </div>
+      <div class="card-footer text-muted">
+        <p id="output" placeholder=></p>
+      </div>
+      <img class="footer-image"></img>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
 </html>
